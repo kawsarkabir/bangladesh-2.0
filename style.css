@@ -83,7 +83,7 @@ nav {
 
 /* PILLARS SECTION START */
 .pillars-section {
-  padding: 30px 0;
+  padding: 50px 0;
 }
 .pillars {
   margin-top: 20px;
@@ -107,3 +107,58 @@ nav {
   color: #0e0e0eb2;
 }
 /* PILLARS SECTION END */
+/* VISION START */
+.vision-section {
+  padding: 50px 0;
+}
+.vision-header h2 {
+}
+.vision-header p {
+  color: #0e0e0eb2;
+  margin: 10px 0;
+}
+.visions {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.vision-card-bg-sky {
+  background: #5490f533;
+}
+.vision-card-bg-green {
+  background: #c6e4d6;
+}
+.vision-card-bg-orange {
+  background: #f7ebcf;
+}
+.vision-card {
+  border-radius: 16px;
+  padding: 25px;
+}
+.vision-card h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+.vision-card p {
+  font-size: 16px;
+  color: #0e0e0eb2;
+}
+.vision-btn {
+  padding: 10px 15px;
+  color: #fff;
+  font-weight: 400;
+  margin-top: 10px;
+  background: #5490f5;
+  border: none;
+  /* font-size: 11px; */
+  border-radius: 5px;
+}
+.Infrastructure-bg {
+  background: #09a15c;
+}
+.Empowerment-bg {
+  background: #ffc239;
+}
+/* VISION END */
