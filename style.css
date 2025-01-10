@@ -162,3 +162,48 @@ nav {
   background: #ffc239;
 }
 /* VISION END */
+/* QUOTE START */
+.testimonial-card {
+  background-color: #f9f9f9;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px #00000017;
+  font-family: Arial, sans-serif;
+  margin-top: -20px;
+  margin-bottom: 20px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+.quote-icon {
+  position: absolute;
+  top: 5px;
+  z-index: -1;
+  color: #bbb;
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+
+.testimonial-text {
+  font-size: 16px;
+  color: #0e0e0ecc;
+  line-height: 1.4;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.author-info h4 {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  margin: 0;
+}
+
+.author-info p {
+  font-size: 14px;
+  color: #666;
+  margin: 0;
+}
+
+/* QUOTE END */
