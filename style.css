@@ -31,6 +31,7 @@ body {
   border-radius: 5px;
   padding: 10px 14px;
   cursor: pointer;
+  display: inline-block;
 }
 .flex {
   display: flex;
@@ -303,3 +304,72 @@ form {
   border: 0;
   padding: 10px 20px;
 }
+/* Donation section end */
+/* subscribe-section start */
+.subscribe-section {
+  background: #c6e4d6;
+  padding: 100px;
+  margin-bottom: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.subscribe-inner {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.subscribe-section h1 {
+  font-size: 30px;
+}
+
+.subscribe-section p {
+  font-size: 16px;
+  color: #0e0e0eb2;
+  padding: 15px 0;
+}
+
+.subscribe-form {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 550px;
+  margin: 0 auto;
+}
+
+.subscribe-form input {
+  padding: 12px 10px;
+  flex: 1;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.subscribe-form button {
+  padding: 12px 20px;
+  background-color: #3db166;
+  color: #fff;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  font-size: 16px;
+  position: relative;
+  top: -2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+  background-color: #006a50;
+}
+.subscribe-inner span {
+  font-size: 14px;
+  color: #0e0e0eb2;
+  margin-top: 15px;
+  display: inline-block;
+}
+/* subscribe-section end */
+/* footer section start */
+
+/* footer section end */
