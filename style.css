@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Fira Sans", serif;
 }
 
 /* COMMON CSS START */
@@ -15,12 +16,24 @@
 .bg-secondary {
   background: #c6e4d6;
 }
-
+.text-gray {
+  color: #0e0e0e80;
+}
+.btn {
+  color: #fff;
+  font-weight: 400;
+  margin-top: 5px;
+  border: 1px solid #006a50;
+  /* font-size: 11px; */
+  border-radius: 5px;
+  padding: 10px 14px;
+}
 /* COMMON CSS END */
 
 /* HEADER START */
+/* NAVBAR START */
 nav {
-  margin-top: 10px;
+  padding: 20px 0;
 }
 .nav-item {
   display: flex;
@@ -39,3 +52,27 @@ nav {
   border-radius: 5px;
   padding: 10px 14px;
 }
+/* NAVBAR END */
+/* BANNER START */
+.banner-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #c6e4d6;
+  border-radius: 5px;
+  padding: 100px 30px;
+}
+.banner-section span {
+  font-weight: 500;
+}
+.banner-section h1 {
+  font-size: 56px;
+  color: #0e0e0e;
+}
+
+.banner-hero-image img {
+  width: 350px;
+}
+/* BANNER END */
+
+/* HEADER END */
