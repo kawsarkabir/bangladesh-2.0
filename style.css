@@ -16,6 +16,7 @@ body {
 .bg-primary {
   background: #006a50;
 }
+
 .bg-secondary {
   background: #c6e4d6;
 }
@@ -32,6 +33,11 @@ body {
   padding: 10px 14px;
   cursor: pointer;
   display: inline-block;
+  transition: 0.5s;
+}
+.btn:hover {
+  background: transparent;
+  color: #006a50;
 }
 .flex {
   display: flex;
@@ -62,6 +68,11 @@ nav {
   border-radius: 5px;
   padding: 10px 14px;
   cursor: pointer;
+  transition: 0.5s;
+}
+.signin-btn:hover {
+  background: #006a50;
+  color: #fff;
 }
 /* NAVBAR END */
 /* BANNER START */
@@ -160,12 +171,31 @@ nav {
   /* font-size: 11px; */
   border-radius: 5px;
   cursor: pointer;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.vision-btn:hover {
+  color: #5490f5;
+  border: 1px solid #5490f5;
+  background: transparent;
 }
 .Infrastructure-bg {
   background: #09a15c;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.Infrastructure-bg:hover {
+  color: #09a15c;
+  border: 1px solid #09a15c;
 }
 .Empowerment-bg {
   background: #ffc239;
+  transition: 0.5s;
+  border: 1px solid transparent;
+}
+.Empowerment-bg:hover {
+  color: #ffc239;
+  border: 1px solid #ffc239;
 }
 /* VISION END */
 /* QUOTE START */
@@ -280,6 +310,9 @@ nav {
   background: #fff;
   border-radius: 10px;
 }
+.amount-card-200 {
+  background: #c6e4d6;
+}
 .amount-card h1 {
   font-size: 30px;
 }
@@ -345,23 +378,26 @@ form {
   font-size: 16px;
   outline: none;
   box-sizing: border-box;
+  border: 1px solid transparent;
 }
 
 .subscribe-form button {
   padding: 12px 20px;
-  background-color: #3db166;
+  background-color: #006a50;
   color: #fff;
   border: none;
   border-radius: 0 5px 5px 0;
   font-size: 16px;
   position: relative;
-  top: -2px;
+  top: -3px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: 0.5s;
+  border: 1px solid transparent;
 }
 
 .subscribe-form button:hover {
-  background-color: #006a50;
+  color: #006a50;
+  border: 1px solid #006a50;
 }
 .subscribe-inner span {
   font-size: 14px;
