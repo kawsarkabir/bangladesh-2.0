@@ -6,6 +6,9 @@
 }
 
 /* COMMON CSS START */
+body {
+  background: #f5f5f5;
+}
 .container {
   max-width: 1180px;
   margin: 0 auto;
@@ -28,6 +31,7 @@
   border-radius: 5px;
   padding: 10px 14px;
 }
+
 /* COMMON CSS END */
 
 /* HEADER START */
@@ -76,3 +80,30 @@ nav {
 /* BANNER END */
 
 /* HEADER END */
+
+/* PILLARS SECTION START */
+.pillars-section {
+  padding: 30px 0;
+}
+.pillars {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+}
+.pillar {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 1px 1px 4px #00000017;
+  padding: 25px;
+}
+.pillar h3 {
+  font-size: 18px;
+  margin: 8px 0;
+}
+.pillar p {
+  font-size: 16px;
+  color: #0e0e0eb2;
+}
+/* PILLARS SECTION END */
