@@ -34,10 +34,12 @@ body {
   cursor: pointer;
   display: inline-block;
   transition: 0.5s;
+  border: 1px solid transparent;
 }
 .btn:hover {
   background: transparent;
   color: #006a50;
+  border: 1px solid #006a50;
 }
 .flex {
   display: flex;
@@ -63,10 +65,10 @@ nav {
   color: #006a50;
   font-weight: 600;
   border: 1px solid #006a50;
-  font-size: 11px;
+  font-size: 13px;
   background: transparent;
   border-radius: 5px;
-  padding: 10px 14px;
+  padding: 10px 20px;
   cursor: pointer;
   transition: 0.5s;
 }
@@ -115,6 +117,10 @@ nav {
   border-radius: 16px;
   box-shadow: 1px 1px 4px #00000017;
   padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.pillar:hover {
+  transform: scale(1.02);
 }
 .pillar h3 {
   font-size: 18px;
@@ -152,6 +158,10 @@ nav {
 .vision-card {
   border-radius: 16px;
   padding: 25px;
+  transition: transform 0.3s ease-in-out;
+}
+.vision-card:hover {
+  transform: scale(1.02);
 }
 .vision-card h3 {
   font-size: 18px;
@@ -198,7 +208,7 @@ nav {
   border: 1px solid #ffc239;
 }
 /* VISION END */
-/* QUOTE START */
+/* TESTIMONIAL START */
 .testimonial-card {
   background-color: #f9f9f9;
   padding: 40px 20px;
@@ -242,6 +252,49 @@ nav {
 }
 
 /* TESTIMONIAL END */
+/* Openinon section start */
+.opinion-section {
+  padding: 40px 0;
+}
+
+.opinion-section .container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  overflow: hidden;
+}
+
+.opinion-section .header {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.opinion-section .table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.opinion-section .table th,
+.opinion-section .table td {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+.opinion-section .table th {
+  background-color: #d4edda;
+}
+
+.opinion-section .select-dropdown {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #c6e4d6;
+  cursor: pointer;
+}
+
+/* Openinon section end */
 /* RECENT NEWS START */
 .recent-news-section {
   padding: 50px 0;
@@ -260,6 +313,18 @@ nav {
   gap: 24px;
   color: #0e0e0eb2;
 }
+.news-source {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.news-source img {
+  width: 25px !important;
+}
+.news-source p {
+  font-weight: 500;
+  color: #000 !important;
+}
 .news-card h2 {
   color: #000;
 }
@@ -267,9 +332,9 @@ nav {
   border-radius: 20px;
   width: 320px;
 }
-.news-card .al-jazeera-img {
+.news-card .news-img {
   width: 100px;
-  margin: 7px 0;
+  margin: 8px 0;
 }
 .news-card p {
   font-size: 16px;
@@ -309,6 +374,11 @@ nav {
   padding: 30px;
   background: #fff;
   border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.amount-card:hover {
+  background: #c6e4d6;
 }
 .amount-card-200 {
   background: #c6e4d6;
@@ -334,8 +404,15 @@ form {
   margin-top: 18px;
 }
 .donate-btn button {
-  border: 0;
-  padding: 10px 20px;
+  border: 1px solid transparent;
+  padding: 12px 30px;
+  background: #006a50;
+  color: #fff;
+  border-radius: 5px;
+}
+.donate-btn button:hover {
+  background: transparent;
+  color: #006a50;
 }
 /* Donation section end */
 /* subscribe-section start */
@@ -378,7 +455,11 @@ form {
   font-size: 16px;
   outline: none;
   box-sizing: border-box;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
+  transition: 0.3s;
+}
+.subscribe-form input:hover {
+  border: 2px solid #006a50;
 }
 
 .subscribe-form button {
@@ -416,5 +497,10 @@ form {
   border: 1px solid #0e0e0e1a;
   width: 70%;
   margin: 20px auto;
+}
+.social-menu {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
 }
 /* footer section end */
