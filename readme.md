@@ -1,8 +1,4 @@
-### WELCOME TO ASSIGNMENT-001
-
 # <img width=20 src="https://img.icons8.com/?size=96&id=60238&format=png"/> BANGLADESH 2.0
-
-## Requirements (50)
 
 ### 1. Banner Section
 
@@ -52,8 +48,6 @@
 
 ---
 
-# CHALLENGES (10)
-
 ### 5. Newsletter Section
 
 - A clean and functional design for newsletter subscriptions:
@@ -80,13 +74,6 @@
   - **Icon Background**: Styled as per the design for visual appeal.
 
  <img src="./UI/quotes.png"/>
-
----
-
-## 5 Commit and No Lorem Ipsum
-
-- A minimum of five commits were made to ensure incremental progress.
-- No placeholder text (e.g., Lorem Ipsum) . All content must have to be meaningful and relevant.
 
 ---
 
