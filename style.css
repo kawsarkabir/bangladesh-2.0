@@ -209,9 +209,14 @@ nav {
 }
 /* VISION END */
 /* TESTIMONIAL START */
+.testimonial-bg {
+  background: url("./assets/quote-bg.png");
+  background-repeat: no-repeat;
+  padding: 50px;
+  background-position: 50px 25px;
+}
 .testimonial-card {
   background-color: #f9f9f9;
-  padding: 40px 20px;
   border-radius: 10px;
   box-shadow: 1px 1px 4px #00000017;
   font-family: Arial, sans-serif;
@@ -264,9 +269,7 @@ nav {
   overflow: hidden;
 }
 
-.opinion-section .header {
-  font-size: 30px;
-  font-weight: bold;
+.opinion-section h2 {
   margin: 20px 0;
 }
 
